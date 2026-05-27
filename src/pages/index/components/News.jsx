@@ -2,8 +2,8 @@ import NewsItem from "./NewsItem";
 
 function News() {
   return (
-    <section className="bg-[url('/image/index/ufu.png')] bg-cover bg-center h-screen">
-      <div className="flex flex-col justify-center items-center gap-16 bg-black/50 backdrop-blur-xs size-full text-white">
+    <section className="flex bg-[url('/image/index/ufu.png')] bg-cover bg-center min-h-screen">
+      <div className="flex flex-col flex-1 justify-center items-center gap-16 bg-black/50 backdrop-blur-xs text-white">
         <div className="flex flex-col gap-8 container">
           <div className="flex flex-col gap-8">
             <span className="w-full font-bold text-5xl">Новости ЮФУ</span>
