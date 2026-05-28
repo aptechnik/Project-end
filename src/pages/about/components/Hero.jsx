@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <section className="flex bg-[url('/image/about/building.png')] bg-cover bg-center min-h-screen">
+    <section className="flex bg-[url('/image/about/building.webp')] bg-cover bg-center min-h-screen">
       <div className="flex flex-col flex-1 justify-center items-center gap-8 sm:gap-12 lg:gap-16 bg-[#97979780] dark:bg-black/75 backdrop-blur-xs dark:backdrop-blur-sm py-8 sm:py-12 text-black dark:text-white">
         <div className="flex lg:flex-row flex-col gap-8 lg:gap-16 px-3 sm:px-4 lg:px-6 w-full container">
           <div className="flex-2 gap-4 grid grid-cols-1 sm:grid-cols-2">
@@ -107,7 +107,7 @@ function Hero() {
           </div>
           <div className="flex flex-col flex-1 gap-2">
             <img
-              src="/image/about/course.png"
+              src="/image/about/course.webp"
               alt="course"
               className="rounded-2xl w-full"
             />
