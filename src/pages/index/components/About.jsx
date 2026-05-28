@@ -4,7 +4,7 @@ function About() {
   return (
     <section className="flex justify-center items-center bg-white dark:bg-black px-3 sm:px-4 min-h-screen">
       <Link to="/about" className="w-full container">
-        <div className="relative flex md:flex-row flex-col shadow-black shadow-md hover:shadow-[0_0_64px] dark:shadow-white md:h-125 min-h-75 transition-shadow duration-500">
+        <div className="relative flex md:flex-row flex-col shadow-black hover:shadow-[0_0_64px] dark:shadow-white md:h-125 min-h-75 transition-shadow duration-500">
           <div className="flex-1 bg-[url('/image/index/students.png')] bg-cover bg-center min-h-50 md:min-h-0"></div>
           <div className="flex flex-1 bg-[url('/image/index/building.png')] bg-position-[33%] bg-cover">
             <div className="flex flex-col flex-1 justify-center items-center gap-4 sm:gap-6 lg:gap-8 bg-slate-800/90 p-6 sm:p-8 lg:pr-24 text-white">
