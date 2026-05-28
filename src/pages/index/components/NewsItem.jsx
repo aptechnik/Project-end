@@ -1,5 +1,5 @@
 /**
- * @param {{colSpan?: number, imageUrl: string, text: string}} props
+ * @param {{imageUrl: string, text: string}} props
  */
 function NewsItem(props) {
   return (
@@ -10,7 +10,9 @@ function NewsItem(props) {
       }}
     >
       <div className="flex flex-col flex-1 justify-end items-start bg-black/20 p-3 sm:p-4 rounded-2xl sm:rounded-3xl lg:rounded-4xl text-white">
-        <span className="max-w-full lg:max-w-85 font-bold text-lg sm:text-xl lg:text-3xl">{props.text}</span>
+        <span className="max-w-full lg:max-w-85 font-bold text-lg sm:text-xl lg:text-3xl">
+          {props.text}
+        </span>
       </div>
     </div>
   );

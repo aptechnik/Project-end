@@ -16,7 +16,6 @@ function News() {
           <div className="gap-6 sm:gap-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-full">
             <div className="sm:col-span-2">
               <NewsItem
-                colSpan={2}
                 imageUrl="/image/index/news/news1.png"
                 text="Анонс событий Южного федерального университета"
               />

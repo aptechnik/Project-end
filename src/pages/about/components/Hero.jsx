@@ -31,7 +31,7 @@ function Hero() {
                     src="/image/about/advantage/advantage1.svg"
                     alt="advantage1"
                     width={70}
-                    className="mt-2 w-12 sm:w-14 lg:w-[70px] shrink-0"
+                    className="mt-2 w-12 sm:w-14 lg:w-17.5 shrink-0"
                   />
                   <span className="font-extralight text-xl sm:text-2xl lg:text-3xl">
                     Практика у лидеров отрасли: стажировки в логистических
@@ -43,7 +43,7 @@ function Hero() {
                     src="/image/about/advantage/advantage2.svg"
                     alt="advantage2"
                     width={70}
-                    className="mt-2 w-12 sm:w-14 lg:w-[70px] shrink-0"
+                    className="mt-2 w-12 sm:w-14 lg:w-17.5 shrink-0"
                   />
                   <span className="font-extralight text-xl sm:text-2xl lg:text-3xl">
                     Двойная компетенция: профиль «Логистика» «Педагогика» с
@@ -55,7 +55,7 @@ function Hero() {
                     src="/image/about/advantage/advantage3.svg"
                     alt="advantage3"
                     width={70}
-                    className="mt-2 w-12 sm:w-14 lg:w-[70px] shrink-0"
+                    className="mt-2 w-12 sm:w-14 lg:w-17.5 shrink-0"
                   />
                   <span className="font-extralight text-xl sm:text-2xl lg:text-3xl">
                     Гибкий график: очная форма, но с возможностью совмещать с
@@ -67,7 +67,7 @@ function Hero() {
                     src="/image/about/advantage/advantage4.svg"
                     alt="advantage4"
                     width={70}
-                    className="mt-2 w-12 sm:w-14 lg:w-[70px] shrink-0"
+                    className="mt-2 w-12 sm:w-14 lg:w-17.5 shrink-0"
                   />
                   <span className="font-extralight text-xl sm:text-2xl lg:text-3xl">
                     Современные инструменты: доступ к программам для логистики и
@@ -91,20 +91,16 @@ function Hero() {
                 <a
                   href="https://sfedu.ru"
                   target="_blank"
-                  className="w-full sm:w-auto"
+                  className="inline-flex justify-center bg-black hover:bg-gray-900 px-8 py-2 rounded-xl font-extralight text-white text-lg sm:text-xl tracking-wider transition-colors"
                 >
-                  <button className="bg-black hover:bg-gray-900 px-8 py-2 rounded-xl w-full font-extralight text-white text-lg sm:text-xl tracking-wider transition-colors cursor-pointer">
-                    Узнать больше
-                  </button>
+                  Узнать больше
                 </a>
                 <a
                   href="https://sfedu.ru"
                   target="_blank"
-                  className="w-full sm:w-auto"
+                  className="inline-flex justify-center bg-white hover:bg-gray-300 px-8 py-2 rounded-xl font-extralight text-black text-lg sm:text-xl tracking-wider transition-colors"
                 >
-                  <button className="bg-white hover:bg-gray-300 px-8 py-2 rounded-xl w-full font-extralight text-black text-lg sm:text-xl tracking-wider transition-colors cursor-pointer">
-                    Записаться
-                  </button>
+                  Записаться
                 </a>
               </div>
             </div>
@@ -113,8 +109,7 @@ function Hero() {
             <img
               src="/image/about/course.png"
               alt="course"
-              width="100%"
-              className="rounded-2xl"
+              className="rounded-2xl w-full"
             />
             <div className="flex items-center gap-2">
               <div className="bg-blue-500 rounded-full size-2.5 shrink-0"></div>
@@ -134,10 +129,12 @@ function Hero() {
                 Бюджетные места: 18 мест
               </span>
             </div>
-            <a href="https://sfedu.ru" target="_blank">
-              <button className="bg-black hover:bg-gray-900 mt-6 sm:mt-8 p-6 sm:p-8 rounded-xl w-full font-normal text-white text-2xl sm:text-3xl lg:text-4xl tracking-wider transition-colors cursor-pointer">
-                Записаться на курс
-              </button>
+            <a
+              href="https://sfedu.ru"
+              target="_blank"
+              className="block bg-black hover:bg-gray-900 mt-6 sm:mt-8 p-6 sm:p-8 rounded-xl w-full font-normal text-white text-2xl sm:text-3xl lg:text-4xl text-center tracking-wider transition-colors"
+            >
+              Записаться на курс
             </a>
           </div>
         </div>

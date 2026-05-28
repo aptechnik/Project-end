@@ -9,8 +9,8 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/" element={IndexPage()} />
-        <Route path="/about" element={AboutPage()} />
+        <Route path="/" element={<IndexPage />} />
+        <Route path="/about" element={<AboutPage />} />
       </Routes>
       <Footer />
     </>

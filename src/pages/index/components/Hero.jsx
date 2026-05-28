@@ -5,7 +5,7 @@ function Hero() {
         <img
           src="/image/logo.svg"
           alt="logo"
-          className="w-32 sm:w-40 lg:w-50"
+          className="w-32 sm:w-40 lg:w-52"
         />
         <span className="font-light text-2xl sm:text-3xl lg:text-4xl xl:text-5xl text-center tracking-wider container">
           Профессиональное обучение технологии

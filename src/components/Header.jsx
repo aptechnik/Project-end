@@ -13,18 +13,20 @@ function Header() {
             className="invert dark:invert-0 w-12 sm:w-14 md:w-16"
           />
         </Link>
-        <div className="flex gap-4 sm:gap-6 lg:gap-8">
-          <Link to="/">
-            <span className="font-extralight text-lg sm:text-xl lg:text-2xl hover:underline">
-              Главная
-            </span>
+        <nav className="flex gap-4 sm:gap-6 lg:gap-8">
+          <Link
+            to="/"
+            className="font-extralight text-lg sm:text-xl lg:text-2xl hover:underline"
+          >
+            Главная
           </Link>
-          <Link to="/about">
-            <span className="font-extralight text-lg sm:text-xl lg:text-2xl hover:underline">
-              О нас
-            </span>
+          <Link
+            to="/about"
+            className="font-extralight text-lg sm:text-xl lg:text-2xl hover:underline"
+          >
+            О нас
           </Link>
-        </div>
+        </nav>
         <div>
           <ThemeToggle />
         </div>
